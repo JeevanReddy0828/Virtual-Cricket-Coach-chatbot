@@ -1,0 +1,136 @@
+{"intents": [
+  {"tag": "greetings",
+  "patterns": ["hello","hey","hi","good day","Greetings","what's up?","how is it going?"],
+  "responses": ["Hello!","Hey!","What can I do for you?"]
+  },
+
+  {"tag": "name",
+  "patterns": ["what is your name?","name","what's your name?","who are you?","what should I call you?"],
+  "responses": ["You can call me coach-bot","I'm coach-bot","I'm coach-bot your virtual assistant"]
+  },
+
+  {"tag": "ability",
+  "patterns": ["what can you do?","how can you help me?"],
+  "responses": [" I can help you with the rules and regulations of cricket."," I can teach you to play good cricket and gain some cricket knowledge as well."]
+  },
+
+  {"tag": "players",
+  "patterns": ["how many players are there in cricket team","players","number of players","how many players can play in a cricket team"],
+  "responses": ["There are total of 22 players and they play 11 versus 11 ","Cricket is a team game played between two teams of 11 players each. The 11 players constitute batsmen, bowlers and a wicket keeper."," There are 11 players per team in a cricket match"," They play in 11 in one team versus 11 in opposing team"]
+  },
+
+  {"tag": "lbw",
+  "patterns": ["What does lbw stand for?"," what is meant by lbw?"],
+  "responses": ["leg before wicket-(lbw) if he intercepts with any part of his person (except his hand) that is in line between wicket and wicket a ball that has not first touched his bat or his hand and that has or would have pitched"]
+  },
+
+    {"tag": "All-Rounder",
+  "patterns": ["What is an all-rounder?","Who is an all-rounder?","who is an all rounder?"],
+  "responses": ["1.Player skilled at both batting and bowling, 2.The perimeter of the ground, 3.The average number of runs a batsman has scored 4. An additional run given to a team for no balls"]
+  },
+
+  {"tag": "pitch dimensions",
+  "patterns": ["What are the dimensions of the pitch?"],
+  "responses": ["1.11 yards by 5 feet,\n 2. 22 yards by 10 feet\n 3. 33 yards by 15 feet 4. 44 yards by 20 feet", "The match is usually played on a large circular or oval shaped ground. There is also a smaller inner oval with a 22 yard pitch at the centre. At each end of the pitch is a set of three wickets with two wooden bails atop them."]
+  },
+
+  {"tag": "positions",
+  "patterns": ["what positions are available", "How many positions are there in the cricket", " The number of positions in cricket"],
+  "responses": ["Informatics  Cricketers generally have three designated roles - batsman, bowler, all-rounder, and wicket-keeper. , \nYou can play as Batsman, Bowler, All rounder, and wicket keeper.\nThere are several roles in cricket where can you play \n\n1. Batter- where you have to hit the incoming ball from the Bowler to score runs\n\n2. Bowler - Where you have to throw ball towards batter to eliminate him\n\n3. Wicket keeper- Where you have to stand behind the wickets to catch ball if the batter misses to hit the ball from the bowler and to see if the batter is in the crease or not. \n\n4. All rounder- where you can play  as all positions mentioned above and as Fielder as well \n Fielder- Where you have to play in a dynamic position while trying to guard the ball from reaching the boundaries.  "]
+  },
+
+   {"tag": " innings",
+  "patterns": [" what are innings in cricket", "number of innings in a one cricket match"],
+  "responses": ["An innings is made of a specific number of overs or a certain amount of time.\n A one day international match consists of 50 overs per innings, a twenty twenty international match consists of 20 overs per innings whereas a test match is limited to a certain number of days which is 5 with 90 overs to be played on each day.\nThere are two innings in single match where each team plays a batting team and another as bowling team."]
+  },
+
+   {"tag": "Equipment",
+  "patterns": ["Equipment used"," what is the equipment used in cricket ","which equipment is used to play cricket"],
+  "responses": [" Cricket involves five basic equipment - the ball, the bat, the wickets, stumps, and the bails."]
+  },
+
+  {"tag": "Scoring",
+  "patterns": ["How to score runs"],
+  "responses": ["They may run multiple runs between the wickets. Also runs can be scored by hitting boundaries for either 4 or 6. Cricket rules also state that once a 4 or 6 has been scored any runs physically ran by the batsman are null & void. "]
+  },
+
+  {"tag": "OUT",
+  "patterns": ["Ways Batsmen can be given out?","how do you out the batsmen?"],
+  "responses": ["Bowled, Caught, Leg Before Wicket(LBW), Stumped, Run Out, Hit Wicket, Handled the Ball, Timed Out, Handled the ball twice, Obstructing the Field."]
+  },
+
+  {"tag": "over",
+  "patterns": ["what is an over", "how many balls are there in a single over"],
+  "responses": ["There are 6 balls in one over.\n When a bowler throws the ball(good ball) six times towards the batsman continuously then it can called as an over."]
+  },
+
+  {"tag": "century",
+  "patterns": ["what is a century", "how many runs in a single century"],
+  "responses": ["One hundred runs make up a single century.","there are 100 runs in one century."]
+  },
+
+  {"tag": "Formats",
+  "patterns": ["what are the cricket match formats","Different cricket match formats?", "In how many formats cricket can be played"],
+  "responses": ["Test Matches, One-Day Internationals, and Twenty20 Internationals, are the three formats of cricket matches that are sanctioned by the International Cricket Council(ICC).."]
+  },
+
+  {"tag": " umpires",
+  "patterns": ["who are umpires?"," what do umpire do?"],
+  "responses": ["The match will also have two on-field umpires that make the decisions of the game. There is also a third umpire that monitors the game through a screen and helps with uncertain or close decisions."]
+  },
+
+  {"tag": "All rounder",
+  "patterns": ["what do  all rounder do?", "who are all rounders"],
+  "responses": ["Player skilled at both batting and bowling."]
+  },
+
+  {"tag": "Bowling",
+  "patterns": ["what are different types Of Bowling In Cricket?", "How many variations of bowling are there?"],
+  "responses": ["There are two basic types of bowlers – Pacers and spinners.They can be further divided into fast bowlers and swing bowlers in pacers and wrist spinners and finger spinners in the spin bowling department.There are two different types of bowling \n 1.Fast bowling  and its variations - Bouncer\nOutswinger(Link-https://www.youtube.com/watch?v=IfS_uW1dCQA)\nInswingers(Link-https://www.youtube.com/watch?v=Nwfzvl0Jpf8)\nReverse Swing\nLeg and Off Cutter(Off cutter-link-'https://www.youtube.com/watch?v=BgBc2r0U4oI&list=PLWgKm7kgxzCvvDpVco2GviFvi61l-z1xQ&index=29'--\nLeg cutter-'https://www.youtube.com/watch?v=1WDQptuUOwA&list=PLWgKm7kgxzCvvDpVco2GviFvi61l-z1xQ&index=32')\nYorker()\nSlower Ball.& \n 2.Spin Bowling and its variations - Leg Break and Off Break\nGoogly (Leg Spinner)\nDoosra (Off Spinner)\nTop spinner (Leg and Off Spin bowling)\nCarrom Ball (Off Spin bowling)\nSlider (Leg Spinner)\nArm Ball (Off Spin bowling)"]
+  },
+
+  {"tag": "Famous Cricketrs",
+  "patterns":["What are the famous styles of the famous cricketers", "Famous cricketrs and their unique on-field manners", " "],
+  "responses":["M.S. Dhoni and his strapping of the gloves. \n Virat Kohli and his trademark bat twirl. \n Steve Smith's unique mannerisms - whenever he walks out ont the crease, he lifts up both his legs one after the other, left leg first and then the right. \n Virendra Sehwag's red handkerchief. \n Lasith Malinga's good-luck kiss. \n Sachin Tendulkar, he was famous for a plethora of on-field habits. He had a habit of ducking a little to adjust his cricket gear. Besides this, Sachin used to walk down the track and tap the area of the pitch where the ball was bowled. "]
+  },
+
+  {"tag":"World-Cup",
+  "patterns": ["How many world-cups are won by India?", "What are the teams with whom India won the world - cup?"],
+  "responses": ["The Indian cricket team are two times World Champions. In addition to winning the 1983 Cricket World Cup against West Indies, they won the 2011 Cricket World Cup on home soil against Sri Lanka. They were also runners-up at the 2003 Cricket World Cup, and semifinalists four times(1987, 1996, 2015, 2019)."]
+  },
+
+  {"tag":"T20s",
+  "patterns": ["How many T20s are won by India?", "What are the teams with whom India won the T20?"],
+  "responses": ["Total number of matches played by India in T20s are 187, out of which India won 120 matches,3 Tied, 59 Lost, and 5 No result matches. The win ratio of India is 67.03%. The teams against which India won the matches are Afghanistan, Australia, Bangladesh, England, Hong Kong, Ireland, Pakistan, South Africa, Sri Lanka, UAE, West Indies, Zimbabwe, Scotland, New Zealand, Netherlands, Namibia."]
+  },
+
+  {"tag":"Cricket Facts",
+  "patterns": ["Tell about some of the cricket facts.", "What are the facts about cricket ?"],
+  "responses": ["1. Shahid Afridi used Sachin Tendulkar's baat to hit the fastest ever ODI century. \n 2. Chris Gayle is the only batsman to hit a six off the first ball of a Test match. \n 3. Abbas Ali Baig was the first Indian cricketer to be kissed during a Test match. \n 4. Vinod Kambli's Test match average is better than his childhood friend Sachin Tendulkar. \n 5. Sunil Gavaskar was out off the first ball of a Test match thrice in his career. \n 6. ML Jaisimha and Ravi Shashtri are the only Indians to bat on all five days of a Test. \n 7. The only cricketer to play Test cricket for India and England is Saif Ali Khan's grandfather, Iftikhar Ali Khan Pataudi. \n 8. Lala Amarnath is the only bowler to dismiss Don Bradman hit wicket in Test cricket. \n 9. There's an uncanny similarity between the Indo-Pak match at the Australasia Cup of 1986 and Asia Cup 2014. \n 10. India won the 1983 World Cup and won their first ever Test at Lord's three years later in 1986. India won their second World Cup 28 years later in 2011 and remarkably won their second ever Test at Lord's three years later in 2014. \n 11. India is the only country to win the 60-over, 50-over and 20-over World Cup. \n 12. Alec Stewart was born on 8-4-63 and he scored 8463 Test runs. \n 13. Asif Karim of Kenya has played International cricket and Davis Cup for his country. \n 14. Wilfred Rhodes of England played Test cricket till he was 52! \n 15. Allan Border played 153 consecutive Test matches. \n 16. The only Indian Test cricketer to be knighted is Maharaja of Vizianagaram. \n 17. Australia beat England by 45 runs in the first ever cricket Test as well as the Centenary Test in 1977. \n 18. There's only one person who witnessed Jim Laker and Anil Kumble taking 10 wickets in an innings. \n 19. On the morning of 11/11/11 South Africa needed 111 runs to win at 11:11. \n 20. Peter Siddle is the only bowler to take a hat-trick on his birthday."]
+  },
+
+  {"tag": "goodbye",
+  "patterns": ["See you later","Goodbye","I am leaving","Have a Good Day","bye","see ya"],
+  "responses": ["Sad to see you go :(","Talk you later","Goodbye"]
+  },
+
+  {"tag": "invalid",
+    "patterns": ["sakfh","gvsd","asbhk","jkdgfjfdgsdk", "hfidfhdjfh","sdfudgfdg","bslfyhjsmf","papper",""],
+    "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"]
+  },
+
+  {"tag": "invalid",
+    "patterns": ["sakfh","gvsd","asbhk","jkdgfjfdgsdk", "hfidfhdjfh","sdfudgfdg","bslfyhjsmf","papper",""],
+    "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"]
+  },
+
+  {"tag": "Laws",
+  "patterns": ["Who maintains the laws of cricket","What are the laws"],
+  "responses": ["Law 1: The Scorers. There are two scorers who respond to the umpires’ signals and keep the score. \nLaw 2: The Ball. A cricket ball is between 8.81 and 9 inches in circumference, and weighs between 5.5 and 5.75 ounces in men's cricket. \nLaw 3: The Bat. The bat is no more than 38 inches in length, no more than 4.25 inches wide, no more than 2.64 inches deep at its middle and no deeper than 1.56 inches at the edge. \nLaw 4: The Pitch. The pitch is a rectangular area of the ground 22 yards long and 10 ft wide. \nLaw 5: The Wickets. The wicket consists of three wooden stumps that are 28 inches tall. The stumps are placed along the bowling crease with equal distances between each stump. \nLaw 6: Covering the pitch. The pitch is said to be 'covered' when the groundsmen have placed covers on it to protect it against rain or dew. \nLaw 7: Intervals. There are intervals during each day's play, a ten-minute interval between innings, and lunch, tea and drinks intervals. The timing and length of the intervals must be agreed before the match begins. \nLaw 8: Innings. Before the game, the teams agree whether it is to be one or two innings for each side, and whether either or both innings are to be limited by time or by overs. \nLaw 9: The result. The side which scores the most runs win the match. If both sides score the same number of runs, the match is tied. However, the match may run out of time before the innings have all been completed; in this case, the match is drawn.\n Law 10: The over. An over consists of six balls bowled, excluding wides and no-balls. A bowler may not bowl two consecutive overs.\n Law 11: Scoring runs. Runs are scored when the two batsmen run to each other's end of the pitch. Several runs can be scored from one ball. \nLaw 12: Boundaries. A boundary is marked around the edge of the field of play. If the ball is hit into or past this boundary, four runs are scored, or six runs if the ball doesn't hit the ground before crossing the boundary.\n Law 13: No ball. A ball can be a no-ball for several reasons: if the bowler bowls from the wrong place; or if he straightens his elbow during the delivery; or if the bowling is dangerous; or if the ball bounces more than once or rolls along the ground before reaching the batter; or if the fielders are standing in illegal places. A no-ball adds one run to the batting team's score. \nLaw 14: Wide ball. An umpire calls a ball 'wide' if, in his or her opinion, the ball is so wide of the batter and the wicket that he could not hit it with the bat playing a normal cricket shot. A wide adds one run to the batting team's score, in addition to any other runs which are scored off it.\n Law 15: The wicket-keeper. The keeper is a designated player from the bowling side allowed to stand behind the stumps of the batter. They are the only fielder allowed to wear gloves and external leg guards. \nLaw 16: The fielder. A fielder is any of the eleven cricketers from the bowling side. Fielders are positioned to field the ball, to stop runs and boundaries, and to get batsmen out by catching or running them out. \nLaw 17: Appeals. If the fielders believe a batter is out, they may ask the umpire 'How's That? before the next ball is bowled. The umpire then decides whether the batter is out. Strictly speaking, the fielding side must appeal for all dismissals, including obvious ones such as bowled. \nLaw 18: Bowled. A batter is out if his wicket is put down by a ball delivered by the bowler. It is irrelevant whether the ball has touched the bat, glove, or any part of the batter before going on to put down the wicket, though it may not touch another player or an umpire before doing so.\n Law 19: Caught. If a ball hits the bat or the hand holding the bat and is then caught by the opposition within the field of play before the ball bounces, then the batter is out. \nLaw 20: Hit the ball twice. If a batter hits the ball twice, other than for the sole purpose of protecting his wicket or with the consent of the opposition, he is out. \nLaw 21: Hit wicket. If, after the bowler has entered his delivery stride and while the ball is in play, a batter puts his wicket down by his bat or his body he is out. \nLaw 22: Leg Before Wicket (LBW). If the ball hits the batter without first hitting the bat, but would have hit the wicket if the batter was not there, and the ball does not pitch on the leg side of the wicket, the batter will be out. \n 23: Obstructing the field. If a batter wilfully obstructs the opposition by word or action or strikes the ball with a hand not holding the bat, he is out.\n Law 24: Run out. A batter is out if at any time while the ball is in play no part of his bat or person is grounded behind the popping crease and his wicket is fairly put down by the opposing side.\n Law 25: Stumped. A batter is out when the wicket-keeper puts down the wicket, while the batter is out of his crease and not attempting a run. \nLaw 26: Timed out. An incoming batter must be ready to face a ball within 3 minutes of the outgoing batter being dismissed, otherwise the incoming batter will be out. \nLaw 27: Unfair play. There are a number of restrictions to ensure fair play covering: changing the condition of the ball; distracting the batsmen; dangerous bowling; time-wasting; damaging the pitch. Some of these offences incur penalty runs, others can see warnings and then restrictions on the players. "]
+  },
+
+  {"tag": "thanks",
+    "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+    "responses": ["Happy to help!", "Any time!", "My pleasure"]
+  }
+]}
